@@ -1,8 +1,8 @@
 #！ /bin/bash
 # 定义变量
-namespace=joe
 image=spring-boot-admin-server
 username=choelea #dockerhub用户名
+namespace=$username #必须用dockerhub的用户名
 password=$1 #dockerhub 密码
 tag=$2
 
