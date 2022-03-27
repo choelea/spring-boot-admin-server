@@ -11,3 +11,5 @@ docker login --username=$username --password=$password  # 使用注册的docker 
 docker build -t $namespace/$image:$tag .
 docker tag $namespace/$image:$tag $namespace/$image:$tag
 docker push $namespace/$image:$tag
+
+## 全路径将会是： docker.io/choelea/spring-boot-admin-server
